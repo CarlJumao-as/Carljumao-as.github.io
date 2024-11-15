@@ -158,7 +158,7 @@ border: 2px solid #ff6347; border-radius: 8px; padding: 10px; font-size: 16px; r
 }
 
 #resultIframe 
-{ background-color: white; font-size: 16px;
+{ background-color: #222; font-size: 16px;
 width: 100%; height: 400px; border: 1px solid #ff6347; margin-top: 20px; border-radius: 8px; }
 }
     </style>
