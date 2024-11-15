@@ -2,61 +2,6 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Page title</title>
-    <style>
-body 
-{ font-family: 'Roboto', sans-serif;
-background: linear-gradient(135deg, #2d3e50, #1b1b2f); color: #f0f0f0;padding: 0;overflow-x: hidden; animation: gradientAnimation 7s ease infinite;
-font-size: 16px;}
-        
-@keyframes gradientAnimation 
-{0% {background: linear-gradient(135deg, #1d3e50, #2b1b2f);}
-50% {background: linear-gradient(135deg, #7b59b6, #2498db);}
-100% {background: linear-gradient(135deg, #9d3e50, #8b1b2f);}
- }  
-        
-  header 
-{ text-align: center; padding: 80px 20px;
-background: rgba(0, 0, 0, 0.3);border-radius: 10px; box-shadow: 0 10px 50px rgba(0, 0, 0, 0.6); margin-bottom: 40px;}
-
-header h1 
-{ font-size: 4rem; color: #ff6347;
-text-shadow: 0 0 15px rgba(255, 99, 71, 0.7), 0 0 30px rgba(255, 99, 71, 0.5); }
-
-nav 
-{display: flex;justify-content: center;gap: 15px; margin-bottom: 40px; position;
-top: 0; background: rgba(0, 0, 0, 0.4);
-padding: 15px 0; z-index: 999; }
-
-nav a 
-{color: orange; text-decoration: none;
-font-size: 0.9rem; padding: 10px 20px;
-border-radius: 30px; text-transform: uppercase; font-weight: bold; transition: all 1.4s ease; position: relative; }
-
-       
-nav a:hover::before 
-{transform: translate(-50%, -50%) scale(4); }
-
-nav a:hover 
-{color: #fff; transform: scale(1.1);
-        }
-        
-</style>  
-</head>
-<body>
-    <header>
-        <h1>Welcome To HTML Tutorial</h1>
-        <nav>
-        <a href="content://com.android.externalstorage.documents/tree/6361-6439%3Aactivity6.html/document/6361-6439%3Aactivity6.html%2Ftutorialss.html"> Start</a>
-        </nav>   
-    </header>
-    
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Omega HTML Tutorial</title>
 <style>
@@ -219,6 +164,12 @@ width: 100%; height: 400px; border: 1px solid #ff6347; margin-top: 20px; border-
     </style>
 </head>
 <body>
+    <header>
+        <h1>Welcome To HTML Tutorial</h1>
+        <nav>
+        <a href="content://com.android.externalstorage.documents/tree/6361-6439%3Aactivity6.html/document/6361-6439%3Aactivity6.html%2Ftutorialss.html"> Start</a>
+        </nav>   
+    </header>
    
  <header>
         <h1>🎃Easy🎃 HTML Tutorial</h1>
@@ -348,7 +299,36 @@ width: 100%; height: 400px; border: 1px solid #ff6347; margin-top: 20px; border-
             <h3>Result:</h3>
             <iframe id="resultIframe"></iframe>
         </div>
-        
+
+<footer>
+<p> &copy; W3schools.com HTML Tutorial.</p>
+    </footer>
+<h1>About Me</h1>
+   
+   <div class="container">
+<div id="section1" class="section">
+    <h4>The Creator of this website:</h4>
+    <img src="content://com.android.externalstorage.documents/tree/6361-6439%3Aactivity.html/document/6361-6439%3Aactivity.html%2Fcarl.jpg" width="270" height="190">
+
+ <tr><th>Name:Carl Jude P. Jumao-as   </th><div><th>Age:17</th></tr>
+    <tr><th>Gmail:carljude1026@gmail.com   </th><br>
+ <tr><th>FB Name:Carl Jude Jumao-as   </th>
+   
+    
+</div>
+</div>
+
+<div class="container">
+<div id="section2" class="section">
+<h1>Reflection</h1>
+<p>Ang napili kong disenyo ay Araw ng mga patay o Holloween dahil isa ito sa paborito kong pagdiriwang.<div>
+Ang mga na engkwentro ko sa pag-gawa ng tutorial na ito ay kung anong app ang gagamitin ko pero ang napili ko ay TrebEdit dahil alam ko kung pano ito gamitin subalit meron parin akong mga pagkakamali sa coding tulad ng color number nahirapan ako dito sa paghahanap ng mga kulay at number ng kulay dahil pwede mo lang ilagay ang mga simpleng kulay tulad ng red ,white at iba pa Kaya kailangan natin ng color number/ID upang gumana ang mga komplikadong kulay tulad ng dark green, light orange at iba pa. Susunod, ay ang pag aayos ng Code dahil sobrang tagal ko itong inayos pero dahil sa aking pag tyatiyaga nagawa ko naman ng maayos ang aking website kahit mahirap gumawa ng tutorial dito ito parin ang pinili ko dahil gusto kong mahasa ang galing ko sa pag code.   <br><br><br>Maraming salamat❤️ </p>
+
+<div id="section3" class="section">
+    <nav>
+<a href="content://com.android.externalstorage.documents/tree/6361-6439%3Aactivity6.html/document/6361-6439%3Aactivity6.html%2Ftutorialss.html">Back</a>
+</nav>
+</div>
 <script>
 function toggleMenu(){ document.body.classList.toggle('menu-open');}
 </script>
@@ -366,12 +346,7 @@ iframeDoc.write(code);
 iframeDoc.close();
     }
   </script>
-
-
-      
-<footer>
-<p> &copy; W3schools.com HTML Tutorial.</p>
+  <p> &copy; W3schools.com HTML Tutorial.</p>
     </footer>
-
 </body>
 </html>
